@@ -1,0 +1,42 @@
+body{
+    background-image:url(escola.jpg);
+}
+div{
+    margin:auto;
+    text-align:center;
+    font-family: monospace;
+    
+}
+h1{
+    text-shadow: 0 0 3px #b61414;
+    text-align: center;
+    font-family:monospace;
+}
+button{
+    margin-top: 8px;
+    background-color: #c92424; 
+    border-radius: 4px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button:hover{
+    background: white;
+    color: #c92424;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+  
+}
+input[type=text]{
+    padding: 10px;
+    border: 2px solid;
+}

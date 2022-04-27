@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt/br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situaçaõ de Aprovação</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="verificador.js" defer></script>
+</head>
+<body>
+    <h1>Verifique sua Situação</h1>
+    <div>
+        <h2>Aprovação caso sua nota seja maior ou igual a 6 e quantidade inferior a 10 faltas</h2>
+        <input type="text" placeholder="Digite sua Nota" id="nota"><br>
+        <input type="text" placeholder="Digite suas Faltas" id="faltas"><br>
+        <button onclick="verificar()">Verificar</button>
+        <p id="resultado"></p>
+    </div>
+</body>
+</html>
